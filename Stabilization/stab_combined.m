@@ -74,7 +74,7 @@ function [K_opt,P_opt] = stab_combined(params,flag)
 
 
     fprintf('------------------------\n')
-    fprintf('----combined method---\n')
+    fprintf('----Combined method---\n')
     fprintf(' min of Ps eigval               : %8.2e \n', min(eig(P_opt)));
     fprintf(' condition number of P          : %8.2e \n', max(eig(P_opt))/min(eig(P_opt)));
     % fprintf(' Norm of K                      : %8.2e \n', norm(K_opt));

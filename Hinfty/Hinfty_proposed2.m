@@ -71,7 +71,7 @@ function [gamma_opt,K_opt,P_opt] = Hinfty_proposed2(params,flag)
 
 
     fprintf('------------------------\n')
-    fprintf('----Proposed method with rho=0---\n')
+    fprintf('----Proposed method 2---\n')
     fprintf(' gamma_opt                      : %8.3e \n', gamma_opt);
     fprintf(' min of Ps eigval               : %8.2e \n', min(eig(P_opt)));
     fprintf(' condition number of P          : %8.2e \n', max(eig(P_opt))/min(eig(P_opt)));

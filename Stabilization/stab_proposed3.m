@@ -66,7 +66,7 @@ function [K_opt,P_opt] = stab_proposed3(params,flag)
 
 
     fprintf('------------------------\n')
-    fprintf('----Proposed method 0 v2---\n')
+    fprintf('----Proposed method 3---\n')
     fprintf(' min of Ps eigval               : %8.2e \n', min(eig(P_opt)));
     fprintf(' condition number of P          : %8.2e \n', max(eig(P_opt))/min(eig(P_opt)));
     % fprintf(' Norm of K               l part): %8.2e \n', max( real(eig( A + B*K_opt )) ));
